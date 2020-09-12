@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+	<listeners>
+		<listener class-name="listeners.ScreenshotListener" />
+	</listeners>
+	<parameter name="browser" value="chrome" />
+	<suite-files>
+		<suite-file path="regression.xml" />		
+<!--		
+		<suite-file path="smoke.xml" />
+		<suite-file path="sanity.xml" /> 
+-->
+	</suite-files>
+</suite>

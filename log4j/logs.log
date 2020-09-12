@@ -1,0 +1,157 @@
+2020-09-07 10:39:20 INFO  ScreenshotListener:22 - ****************************************************************************************
+2020-09-07 10:39:20 INFO  ScreenshotListener:23 -                                 Regression       
+2020-09-07 10:39:20 INFO  ScreenshotListener:24 - ----------------------------------------------------------------------------------------
+2020-09-07 10:39:26 INFO  LoginPage:306 - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-07 10:39:27 INFO  LoginPage:76 - successfully clicked on element By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-07 10:39:27 INFO  LoginPage:143 - Waiting for element to be visible !!! 0 seconds :: By.id: regPopUp
+2020-09-07 10:39:29 INFO  LoginPage:76 - successfully clicked on element By.xpath: //a[contains(@class,"existing")]
+2020-09-07 10:39:29 INFO  LoginPage:139 - waiting for element to be visible!!! 0seconds
+2020-09-07 10:39:30 INFO  LoginPage:76 - successfully clicked on element By.xpath: //input[@name="user[new]"]
+2020-09-07 10:39:30 INFO  LoginPage:239 - succesfully sent the keys:: "tanugulia09@gmail.com" to the input box of element:: By.xpath: //input[@name="user[new]"]
+2020-09-07 10:39:30 INFO  LoginPage:76 - successfully clicked on element By.xpath: //input[@name="password"]
+2020-09-07 10:39:31 INFO  LoginPage:239 - succesfully sent the keys:: "Pepperfry@09" to the input box of element:: By.xpath: //input[@name="password"]
+2020-09-07 10:39:31 INFO  LoginPage:76 - successfully clicked on element By.xpath: //input[@name="usernameLogin"]
+2020-09-07 10:39:31 INFO  LoginPage:190 - Waiting for element to be Invisible !!! 0 seconds By.id: loginPopUp
+2020-09-07 10:39:32 INFO  LoginPage:190 - Waiting for element to be Invisible !!! 1 seconds By.id: loginPopUp
+2020-09-07 10:39:34 INFO  LoginPage:40 - Logged in successfully
+2020-09-07 10:39:34 INFO  ScreenshotListener:31 - 
+
+<< --- TestCase START --->> validateWishListItemFunctionality
+
+2020-09-07 10:39:34 INFO  HomePage:138 - mouse hovered over category: Bedroom
+2020-09-07 10:39:34 INFO  HomePage:139 - waiting for element to be visible!!! 0seconds
+2020-09-07 10:39:36 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@id,"bedroom")]/descendant::a[text()[contains(.,"Queen Size Beds")]]
+2020-09-07 10:39:36 INFO  HomePage:143 - Clicked on sub category: Queen Size Beds under category: Bedroom
+2020-09-07 10:39:38 INFO  HomePage:76 - successfully clicked on element By.xpath: //a[contains(@class,"icon-heart")]
+2020-09-07 10:39:38 INFO  HomePage:30 - Clicked on wishlist icon
+2020-09-07 10:39:40 INFO  HomePage:88 - successfully clicked on element [[ChromeDriver: chrome on MAC (f4f151517d684af39a535c8c84665935)] -> xpath: //a[contains(@class,"deleteicon")]]
+2020-09-07 10:39:40 INFO  HomePage:51 - Clicked on remove item link
+2020-09-07 10:39:42 INFO  HomePage:61 - no items wishlisted
+2020-09-07 10:39:42 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@class,"mini_cart")]/descendant::a[contains(@class,"pf-icon-close")]
+2020-09-07 10:39:42 INFO  HomePage:121 - Clicked on wishlist or cart close icon
+2020-09-07 10:39:43 INFO  HomePage:88 - successfully clicked on element [[ChromeDriver: chrome on MAC (f4f151517d684af39a535c8c84665935)] -> xpath: //div[contains(@class,"clip-prd")]]
+2020-09-07 10:39:43 INFO  HomePage:186 - itemText Kimi Queen Size Bed With Storage In Regato Walnut Colour
+2020-09-07 10:39:44 INFO  HomePage:76 - successfully clicked on element By.xpath: //a[contains(@class,"icon-heart")]
+2020-09-07 10:39:44 INFO  HomePage:30 - Clicked on wishlist icon
+2020-09-07 10:39:45 INFO  HomePage:200 - wishListItemTitle Kimi Queen Size Bed With Storage In Regato Walnut Colour...
+2020-09-07 10:39:45 INFO  HomePage:203 - Wishlisted item with title: Kimi Queen Size Bed With Storage In Regato Walnut Colour found in the wishlist box
+2020-09-07 10:39:45 INFO  Home_Regression:47 - Successfully validated wishlist item functionality
+2020-09-07 10:39:46 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@class,"mini_cart")]/descendant::a[contains(@class,"pf-icon-close")]
+2020-09-07 10:39:46 INFO  HomePage:121 - Clicked on wishlist or cart close icon
+2020-09-07 10:39:46 INFO  ScreenshotListener:40 - 
+
+ TestCase: validateWishListItemFunctionality: --->>> PASS 
+
+2020-09-07 10:39:46 INFO  ScreenshotListener:31 - 
+
+<< --- TestCase START --->> validateCartFunctionality
+
+2020-09-07 10:39:46 INFO  HomePage:123 - Wishlist or cart box is already closed
+2020-09-07 10:39:46 INFO  HomePage:138 - mouse hovered over category: Bedroom
+2020-09-07 10:39:46 INFO  HomePage:139 - waiting for element to be visible!!! 0seconds
+2020-09-07 10:39:48 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@id,"bedroom")]/descendant::a[text()[contains(.,"Queen Size Beds")]]
+2020-09-07 10:39:48 INFO  HomePage:143 - Clicked on sub category: Queen Size Beds under category: Bedroom
+2020-09-07 10:39:51 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@class,"cart_bar")]
+2020-09-07 10:39:51 INFO  HomePage:76 - Clicked on cart icon
+2020-09-07 10:39:52 INFO  HomePage:88 - successfully clicked on element [[ChromeDriver: chrome on MAC (f4f151517d684af39a535c8c84665935)] -> xpath: //a[contains(@class,"deleteicon")]]
+2020-09-07 10:39:52 INFO  HomePage:96 - Clicked on remove item link
+2020-09-07 10:39:53 INFO  HomePage:106 - no items are present in the cart
+2020-09-07 10:39:53 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@class,"mini_cart")]/descendant::a[contains(@class,"pf-icon-close")]
+2020-09-07 10:39:53 INFO  HomePage:121 - Clicked on wishlist or cart close icon
+2020-09-07 10:39:53 INFO  HomePage:230 - itemText Kimi Queen Size Bed With Storage In Regato Walnut Colour
+2020-09-07 10:39:54 INFO  HomePage:88 - successfully clicked on element [[ChromeDriver: chrome on MAC (f4f151517d684af39a535c8c84665935)] -> xpath: //div[contains(@class,"clip-add-to-cart")]]
+2020-09-07 10:39:54 INFO  HomePage:139 - waiting for element to be visible!!! 0seconds
+2020-09-07 10:39:56 INFO  HomePage:245 - cart item text Kimi Queen Size Bed With Storage In Regato Walnut Colour By Mintwud
+2020-09-07 10:39:56 INFO  HomePage:248 - Item present in cart with with title: Kimi Queen Size Bed With Storage In Regato Walnut Colour
+2020-09-07 10:39:56 INFO  Home_Regression:77 - Successfully validated cart functionality
+2020-09-07 10:39:56 INFO  HomePage:76 - successfully clicked on element By.xpath: //div[contains(@class,"mini_cart")]/descendant::a[contains(@class,"pf-icon-close")]
+2020-09-07 10:39:56 INFO  HomePage:121 - Clicked on wishlist or cart close icon
+2020-09-07 10:39:56 INFO  ScreenshotListener:40 - 
+
+ TestCase: validateCartFunctionality: --->>> PASS 
+
+2020-09-07 10:39:56 INFO  ScreenshotListener:31 - 
+
+<< --- TestCase START --->> validateLogoutFunctionality
+
+2020-09-07 10:39:59 INFO  LogoutPage:76 - successfully clicked on element By.xpath: //div[contains(@class,"loggedin")]/descendant::a[text()[contains(.,"Logout")]]
+2020-09-07 10:40:01 INFO  LogoutPage:29 - Logged out successfully
+2020-09-07 10:40:01 INFO  Home_Regression:96 - Logout functionality is validated successfully
+2020-09-07 10:40:01 INFO  ScreenshotListener:40 - 
+
+ TestCase: validateLogoutFunctionality: --->>> PASS 
+
+2020-09-07 10:40:07 INFO  ScreenshotListener:64 - ----------------------------------------------------------------------------------------
+
+2020-09-07 10:40:07 INFO  ScreenshotListener:65 - ****************************************************************************************
+
+2020-09-12 15:04:39 INFO  ScreenshotListener:22 - ****************************************************************************************
+2020-09-12 15:04:39 INFO  ScreenshotListener:23 -                                 Regression       
+2020-09-12 15:04:39 INFO  ScreenshotListener:24 - ----------------------------------------------------------------------------------------
+2020-09-12 15:04:42 ERROR Home_Regression:162 - session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2N9QPVCQ', ip: '169.254.2.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D29563+2725219]
+	Ordinal0 [0x00C28551+1672529]
+	Ordinal0 [0x00B10359+525145]
+	Ordinal0 [0x00AA0B77+68471]
+	Ordinal0 [0x00A9D32C+54060]
+	Ordinal0 [0x00ABCC37+183351]
+	Ordinal0 [0x00ABCA3D+182845]
+	Ordinal0 [0x00ABA94B+174411]
+	Ordinal0 [0x00AA2528+75048]
+	Ordinal0 [0x00AA35A0+79264]
+	Ordinal0 [0x00AA3539+79161]
+	Ordinal0 [0x00C3D607+1758727]
+	GetHandleVerifier [0x00E46546+1050150]
+	GetHandleVerifier [0x00E46291+1049457]
+	GetHandleVerifier [0x00E510D7+1094071]
+	GetHandleVerifier [0x00E46B46+1051686]
+	Ordinal0 [0x00C35B06+1727238]
+	Ordinal0 [0x00C3EB7B+1764219]
+	Ordinal0 [0x00C3ECE3+1764579]
+	Ordinal0 [0x00C54C05+1854469]
+	BaseThreadInitThunk [0x76A86359+25]
+	RtlGetAppContainerNamedObjectPath [0x774C7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x774C7BF4+180]
+
+2020-09-12 15:04:42 INFO  ScreenshotListener:64 - ----------------------------------------------------------------------------------------
+
+2020-09-12 15:04:42 INFO  ScreenshotListener:65 - ****************************************************************************************
+
+2020-09-12 15:10:28 INFO  ScreenshotListener:22 - ****************************************************************************************
+2020-09-12 15:10:28 INFO  ScreenshotListener:23 -                                 Regression       
+2020-09-12 15:10:28 INFO  ScreenshotListener:24 - ----------------------------------------------------------------------------------------
+2020-09-12 15:10:34 INFO  LoginPage:306 - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:35 INFO  LoginPage:306 - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:36 INFO  LoginPage:306 - Waiting for element to be present in DOM 2 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:37 INFO  LoginPage:306 - Waiting for element to be present in DOM 3 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:38 INFO  LoginPage:306 - Waiting for element to be present in DOM 4 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:39 INFO  LoginPage:306 - Waiting for element to be present in DOM 5 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:40 INFO  LoginPage:306 - Waiting for element to be present in DOM 6 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:41 INFO  LoginPage:306 - Waiting for element to be present in DOM 7 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:42 INFO  LoginPage:306 - Waiting for element to be present in DOM 8 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:43 INFO  LoginPage:306 - Waiting for element to be present in DOM 9 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:44 INFO  LoginPage:306 - Waiting for element to be present in DOM 10 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:45 INFO  LoginPage:306 - Waiting for element to be present in DOM 11 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:46 INFO  LoginPage:306 - Waiting for element to be present in DOM 12 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:47 INFO  LoginPage:306 - Waiting for element to be present in DOM 13 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:48 INFO  LoginPage:306 - Waiting for element to be present in DOM 14 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:49 INFO  LoginPage:306 - Waiting for element to be present in DOM 15 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:50 INFO  LoginPage:306 - Waiting for element to be present in DOM 16 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:51 INFO  LoginPage:306 - Waiting for element to be present in DOM 17 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:52 INFO  LoginPage:306 - Waiting for element to be present in DOM 18 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:53 INFO  LoginPage:306 - Waiting for element to be present in DOM 19 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:54 INFO  LoginPage:306 - Waiting for element to be present in DOM 20 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:55 INFO  LoginPage:306 - Waiting for element to be present in DOM 21 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:56 INFO  LoginPage:306 - Waiting for element to be present in DOM 22 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:57 INFO  LoginPage:306 - Waiting for element to be present in DOM 23 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:58 INFO  LoginPage:306 - Waiting for element to be present in DOM 24 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:10:59 INFO  LoginPage:306 - Waiting for element to be present in DOM 25 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:11:00 INFO  LoginPage:306 - Waiting for element to be present in DOM 26 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:11:01 INFO  LoginPage:306 - Waiting for element to be present in DOM 27 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:11:02 INFO  LoginPage:306 - Waiting for element to be present in DOM 28 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:11:03 INFO  LoginPage:306 - Waiting for element to be present in DOM 29 seconds element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]
+2020-09-12 15:11:16 ERROR LoginPage:315 - Element is not present in DOM element:: By.xpath: //div[@class="login-block"]/descendant::a[@id="registerPopupLink"]

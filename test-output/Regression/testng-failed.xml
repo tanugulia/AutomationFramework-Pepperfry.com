@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="listeners.ScreenshotListener"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="home.Home_Regression">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validateCartFunctionality"/>
+          <include name="initialization"/>
+          <include name="validateLogoutFunctionality"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="validateWishListItemFunctionality"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- home.Home_Regression -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Regression] -->
